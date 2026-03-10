@@ -1,4 +1,4 @@
-class Main {
+public class Main {
     public static void main(String[] args) {
         ERyder bike1 = new ERyder("B001", 85, true, 120.5);
         bike1.printBikeDetails();
@@ -10,4 +10,5 @@ class Main {
         bike2.printRideDetails(45);
 
     }
+
 }
